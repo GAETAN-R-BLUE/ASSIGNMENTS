@@ -17,7 +17,7 @@ public class Assignment6_12 {
         int size = input.nextInt();  // Accepting the user input
 
         /* The following loop ask the user to enter all the elements of the array
-         * and adding them in the list*/
+         * and adding them in the list++++++++++++++++++++++++++++++++++++++++++*/
 
         for (int i = 0; i < size; i++) {
             System.out.println("Enter Number " + (i + 1));
