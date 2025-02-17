@@ -3,7 +3,7 @@
  * outputs non-negative numbers (integer) in ascending
  * order ( lowest to highest)
  * Rodrigue Gaetan 01/01/1111
- * ***************************************************/
+ * ****************************************************/
 import java.util.Arrays;
 import java.util.Scanner;
 
