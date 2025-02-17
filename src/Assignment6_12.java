@@ -28,8 +28,9 @@ public class Assignment6_12 {
         double sum = 0;  // sum variable
         double largest = numbers.get(0);
 
-        /* The following loo goes thru my array list a pull the largest and
+        /* The following loo goes through my array list a pull the largest and
          * calculates the sum of the list */
+
 
         for (int j = 0; j < numbers.size(); j++){
         sum += numbers.get(j);
