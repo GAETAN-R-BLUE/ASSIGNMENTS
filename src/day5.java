@@ -1,7 +1,7 @@
 /* **************************************************************
  * This program prompts the user for a sentence, count the number
  * of words in the sentence and display the words count.
- * Rodrigue Gaetan
+ * Rodrigue Gaetan G
  * 01/01/1111
  ****************************************************************/
 import java.util.Scanner;
