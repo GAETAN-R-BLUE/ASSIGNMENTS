@@ -8,19 +8,16 @@ import java.util.Scanner;
 
 public class day5 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+       // Scanner input = new Scanner(System.in);
 
         System.out.println("Enter your sentence here:"); // Prompt the user for the sentence
-        String sentence = input.nextLine(); // Accept the user input
-        System.out.println(); //goes to the next line
+       // String sentence = input.nextLine(); // Accept the user input
+       // System.out.println(); //goes to the next line
 
-        String [] array = sentence.split(" "); //Splitting the sentence into words
-        int count = 0; // counting the number of words in my sentence
-        for(int i =0; i < array.length; i++){
-            count++;
-        }
-        System.out.println("Your sentence has "+ count + " words");
+        //String [] array = sentence.split(" "); //Splitting the sentence into words
 
-        input.close();
+        System.out.println("Your sentence has "+ new Scanner(System.in).nextLine().split(" ").length + " words");
+
+        //input.close();
     }
 }

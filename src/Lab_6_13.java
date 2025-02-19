@@ -16,14 +16,15 @@ public class Lab_6_13 {
         String[] array = numbers.split(" "); // splitting the string into an array
         System.out.println();
 
-        int [] newArray = new int[array.length];
-        for(int i = 0; i < array.length; i ++) {
-            newArray[i] = Integer.parseInt(array[i]);
-        }
-        Arrays.sort(newArray);
+//        int [] newArray = new int[array.length];
+//        for(int i = 0; i < array.length; i ++) {
+//            newArray[i] = Integer.parseInt(array[i]);
+//        }
+//        Arrays.sort(newArray);
         for(int i = 0; i < array.length; i ++){
-            if (newArray[i] > 0 ) {
-                System.out.println( newArray[i]);
+            int number = Integer.parseInt(array[i]);
+            if (number >= 0 ) {
+                System.out.print( number + " ");
             }
         }
         input.close();
