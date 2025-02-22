@@ -8,7 +8,6 @@ public class TimeConverter {
         System.out.println("Enter your total time in minutes:");
         Scanner input = new Scanner(System.in);
         int totalTime = input.nextInt();
-
         int timeInHour = (totalTime / 60);
         int timeInMinutes = ((totalTime % 60));
 
@@ -16,7 +15,6 @@ public class TimeConverter {
             System.out.println(totalTime + " minutes " + " is " + timeInHour + " hour and " + timeInMinutes + " minutes");
         } else {
             System.out.println(totalTime + " minutes " + " is " + timeInHour + " hours and " + timeInMinutes + " minutes");
-
         }
         input.close();
     }
