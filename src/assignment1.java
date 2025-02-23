@@ -3,31 +3,27 @@
  * corresponding integer is a power of two and 0 otherwise.
  * RODRIGUE GAETAN 01/01/1111
  * ******************************************************************************/
-import javax.management.StringValueExp;
-import java.util.Arrays;
 import java.util.Scanner;
-
-import static java.lang.Math.log;
 
 public class assignment1 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a list numbers separated with coma"); // This number will represent the interval from 0 to the number.
+        System.out.println("Enter a list numbers separated with coma"); // Prompts the user for a list of numbers separated with coma
         String num = scan.nextLine();
 
-        String [] numberArrays = num.split(",");
+        String [] numberArrays = num.split(","); // Splits my string variable into a sting array with each element representing a number
 
         double result = 0;
-        int [] number = new int[numberArrays.length];
+        int [] number = new int[numberArrays.length]; // creating a new array
         for(int i = 0; i < numberArrays.length; i++){
-            number[i] = Integer.parseInt(numberArrays[i]);
-            result =(Math.log(number[i]) / Math.log(2)) ;
+            number[i] = Integer.parseInt(numberArrays[i]); //attributing each element of my array
+            result =(Math.log(number[i]) / Math.log(2)) ; // looping through my array and determining if each number is a power of 2 or not
             if (result % 1 == 0){
-                System.out.print("0");
+                System.out.print("1");  // display the output: 0 if the number is a power of 2 and 1 otherwise.
             }
             else {
-                System.out.print("1");
+                System.out.print("0");
             }
         }
         scan.close();
