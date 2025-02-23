@@ -10,16 +10,16 @@ public class PrimeNumber {
                 System.out.println("incorrect entry, try again");
             }
             else {
-                for(int i = 1; i <= number; i++){
+                for(int i = 1; i <= number; i++){ // counts how many times the number can be divisible
                     if (number % i == 0){
                         count++;
                     }
                 }
                 if(count == 2){
-                    System.out.println(number + " is a prime number");
+                    System.out.println(number + " is a prime number"); // if the count is equals to 2, it is a prime number
                 }
                 else {
-                    System.out.println(number + " is not a prime number");
+                    System.out.println(number + " is not a prime number"); //if it is more than 2, it is not a prime number
                 }
                 break;
             }
