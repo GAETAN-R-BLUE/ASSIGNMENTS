@@ -7,7 +7,7 @@ public class assignment2 {
 
         System.out.println("Enter The amount to be changed:");
         int amount = scan.nextInt();
-        if( amount == 0){
+        if( amount <= 0){
             System.out.println("No change:");
         }
         else {
