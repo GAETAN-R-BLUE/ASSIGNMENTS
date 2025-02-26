@@ -3,7 +3,9 @@
  * corresponding integer is a power of two and 0 otherwise.
  * RODRIGUE GAETAN 01/01/1111
  * ******************************************************************************/
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class assignment1 {
     public static void main(String[] args) {
@@ -14,18 +16,16 @@ public class assignment1 {
 
         String [] numberArrays = num.split(","); // Splits my string variable into a sting array with each element representing a number
 
-        double result = 0;
-        int [] number = new int[numberArrays.length]; // creating a new array
         for(int i = 0; i < numberArrays.length; i++){
-            number[i] = Integer.parseInt(numberArrays[i]); //attributing each element of my array
-            result =(Math.log(number[i]) / Math.log(2)) ; // looping through my array and determining if each number is a power of 2 or not
+            double result = (Math.log(Integer.parseInt(numberArrays[i])) / Math.log(2)) ; // looping through my array and determining if each number is a power of 2 or not
             if (result % 1 == 0){
-                System.out.print("1");  // display the output: 0 if the number is a power of 2 and 1 otherwise.
+                numberArrays[i] = "1";  // display the output: 0 if the number is a power of 2 and 1 otherwise.
             }
             else {
-                System.out.print("0");
+                numberArrays[i] = "0";
             }
         }
+        System.out.println(String.join(",",numberArrays)); //
         scan.close();
     }
 }
