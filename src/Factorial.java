@@ -8,10 +8,9 @@ import java.util.Scanner;
  * ************************************************************/
 public class Factorial {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("Enter your number: ");
-            int number = input.nextInt();
+            int number = new Scanner(System.in).nextInt();
             if (number <= 0) {
                 System.out.println("Invalid entry");
             } else {
@@ -22,8 +21,6 @@ public class Factorial {
                 System.out.println(number + "! is: " + numFactorial);
                 break;
             }
-
         }
-        input.close();
     }
 }
