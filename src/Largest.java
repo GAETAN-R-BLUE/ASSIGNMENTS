@@ -3,22 +3,14 @@ import java.util.Scanner;
 
 public class Largest {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         System.out.println("Enter your 3 number separated by space:");
-        String  stringNumbers = input.nextLine();
-
-        String [] numbers = stringNumbers.split(" ");
-        int [] integerNumber = new int[numbers.length];
+        String [] numbers = new Scanner(System.in).nextLine().split(" ");
+        int largest =Integer.parseInt(numbers[0]);
         for (int i = 0; i < numbers.length; i++){
-            integerNumber[i] = Integer.parseInt(numbers[i]);
-        }
-        int largest = integerNumber[0];
-        for (int i = 0; i < numbers.length; i++){
-            if(largest < integerNumber[i]){
-                largest = integerNumber[i];
+            if(largest < Integer.parseInt(numbers[i])){
+                largest = Integer.parseInt(numbers[i]);
             }
         }
         System.out.println("The largest is: " + largest);
- input.close();
     }
 }

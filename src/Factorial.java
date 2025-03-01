@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /* ************************************************************
- * This program get a number from the user input, calculate
+ * This program get a number from the user input, Calculate
  * the factorial and display the result
  * Name: Rodrigue Gaetan
  * Date Modified: 01/01/1111
