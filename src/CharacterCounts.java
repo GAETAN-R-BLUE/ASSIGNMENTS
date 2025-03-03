@@ -7,24 +7,16 @@
 import java.util.Scanner;
 public class CharacterCounts {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your sentence");
-        String sentence = input.nextLine();
-
-        int vowelCount = 0; // variable to track how many vowels initialized
-        for (int i = 0; i < sentence.length(); i++ ){
-            char character = sentence.charAt(i);
-            if (character == 'a' || character=='e'|| character == 'i'||character == 'o'||character == 'u'){
-                vowelCount++; // tracks the number of vowels
-            }
-        }
-        if(vowelCount == 1){
-            System.out.println("your sentence has " + vowelCount + " vowel");
-        }
-        else if(vowelCount == 0){
-            System.out.println( "Your sentence has no vowels");
-        }
-        else {System.out.println("your sentence has " + vowelCount + " vowels");
-        input.close();}
+        System.out.println("Type in your sentence");
+        String userInput = new Scanner(System.in).nextLine().replaceAll("[^a-zA-Z0-9\\s]","").replace(" ","").toLowerCase();
+        int count = userInput.length();
+        int vowCount = 0;
+      for (int i = 0; i < userInput.length(); i++){
+          if(userInput.charAt(i) == 'a' ||userInput.charAt(i) == 'e' || userInput.charAt(i) == 'i'||userInput.charAt(i) == 'o'||userInput.charAt(i) == 'u' ){
+            count--;
+            vowCount++;
+          }
+      }
+        System.out.println("your sentence has "+ count + " consonants and " + vowCount + " vowels" );
     }
 }
