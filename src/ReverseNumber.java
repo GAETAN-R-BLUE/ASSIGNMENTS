@@ -8,14 +8,12 @@ import java.util.Scanner;
 
 public class ReverseNumber {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         System.out.println("Enter a number integer:");
-        int numInt = input.nextInt();
+        int numInt = new Scanner(System.in).nextInt();
         String number = Integer.toString(Math.abs(numInt)); // Do the absolute value so that negatives are ignore
         if(numInt < 0) System.out.print("-"); // handles negatives entries
         for(int i = number.length()-1; i >= 0; i--){
                 System.out.print(number.charAt(i));
         }
-input.close();
     }
 }
