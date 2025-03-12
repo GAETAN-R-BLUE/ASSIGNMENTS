@@ -1,7 +1,5 @@
 //This program is a simple calculator
-
 import java.util.Scanner;
-
 public class SimpleCalc {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -37,7 +35,6 @@ public class SimpleCalc {
                 System.out.println("The division of " + num1 + " by " + num2 + " is " + result);
             }
         }
-
     }
 }
 
