@@ -36,6 +36,9 @@ public class SimpleCalc {
             }
         }
     }
+    public static void add(int numa, int numb){
+        int result = numa + numb;
+        System.out.println(result);
+    }
 }
-
 
