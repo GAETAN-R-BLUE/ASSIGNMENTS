@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f5e147-8761-47f9-861d-a7bdda49f87e" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/SimpleTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfEvenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleCalendarChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UniqueCharacterChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,7 @@
     "Application.ReverseString.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.SimpleCalc.executor": "Run",
+    "Application.SimpleCalendarChecker.executor": "Run",
     "Application.SimpleTimer.executor": "Run",
     "Application.SmallestNumber.executor": "Run",
     "Application.SortingNumbers.executor": "Run",
@@ -97,6 +98,7 @@
     "Application.SumOfDigit.executor": "Run",
     "Application.SumOfEvenNumber.executor": "Run",
     "Application.TimeConverter.executor": "Run",
+    "Application.UniqueCharacterChecker.executor": "Run",
     "Application.UnitConverter.executor": "Run",
     "Application.WordCount.executor": "Run",
     "Application.WordOccurrence.executor": "Run",
@@ -120,16 +122,9 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SimpleTimer">
-    <configuration name="FizzBuzzEnhanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzEnhanced" />
-      <module name="ASSIGNMENTS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Method" />
+  <component name="RunManager" selected="Application.SimpleCalendarChecker">
+    <configuration name="SimpleCalendarChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleCalendarChecker" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,6 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueCharacterChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UniqueCharacterChecker" />
+      <module name="ASSIGNMENTS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnitConverter" />
       <module name="ASSIGNMENTS" />
@@ -158,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleCalendarChecker" />
+        <item itemvalue="Application.UnitConverter" />
+        <item itemvalue="Application.UniqueCharacterChecker" />
         <item itemvalue="Application.SimpleTimer" />
         <item itemvalue="Application.SumOfEvenNumber" />
-        <item itemvalue="Application.UnitConverter" />
-        <item itemvalue="Application.Method" />
-        <item itemvalue="Application.FizzBuzzEnhanced" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +433,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742429694739</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="changes">
+      <option name="closed" value="true" />
+      <created>1743301042812</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1743301042812</updated>
+    </task>
+    <task id="LOCAL-00034" summary="changes">
+      <option name="closed" value="true" />
+      <created>1743301089994</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1743301089994</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -447,24 +465,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment6_12.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment6_12.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lab6_12.java</url>
           <line>30</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day5.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TimeConverter.java</url>
@@ -480,21 +483,6 @@
           <url>file://$PROJECT_DIR$/src/PrimeNum2.java</url>
           <line>2</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ArrayLargest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ArrayLargest.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/palindromeNumber.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinarySearch.java</url>
