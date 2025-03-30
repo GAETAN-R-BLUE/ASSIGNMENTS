@@ -1,13 +1,21 @@
+/* **********************************************************************************************
+ * This program prompts the user for a number corresponding to a day of the week and display the
+ * day. The program also have invalid inputs gracefully.
+ * Date: 01-/01/1111; Name: Gaetan
+ * **********************************************************************************************/
+
 import java.util.Scanner;
 
 public class SimpleCalendarChecker {
     public static void main(String[] args) {
         while (true) {
+            // Prompts the user for a number
             System.out.println("Enter an integer corresponding to the date or 0 to exit.");
             int choice = new Scanner(System.in).nextInt();
+            // Check if the number is within the range (1-7)
             if (choice < 0 || choice > 7) {
+                // if not within the range, display an error message
                 System.out.println("Try again, invalid input");
-                continue;
             }
             if (choice == 0) {
                 break;
