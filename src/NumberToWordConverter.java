@@ -1,45 +1,37 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class NumberToWordConverter {
     public static void main(String[] args) {
-        System.out.println("Enter a number a positive integer ");
-        int number = new Scanner(System.in).nextInt();
+        Scanner input = new Scanner(System.in);
+        String response = "y";
+        while (true) {
+            System.out.println("Enter a positive integer between 0 and 99 ");
+            int number = input.nextInt();
+            String[] singleDigit = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+            String[] doubleDigit1 = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+            String[] doubleDigit2 = {"Twenty", "thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+            String result = "";
 
-        switch (number) {
-            case 0:
-                System.out.println("0 = Zero");
+            if (number < 10) {
+                result = singleDigit[number];
+            }
+            if (number > 9 && number < 20) {
+                result = doubleDigit1[number - 10];
+            }
+            if (number > 19) {
+                int tenthDigit = (number / 10);
+                int unitDigit = (number % 10);
+                result = unitDigit > 0 ? doubleDigit2[tenthDigit - 2] + "-" + singleDigit[unitDigit] : doubleDigit2[tenthDigit - 2];
+            }
+            System.out.println(result);
+            System.out.println("Would you like to continue? y/n");
+            input.nextLine();
+            response = input.nextLine();
+            if (Objects.equals(response, "n")) {
                 break;
-            case 1:
-                System.out.println("1 = one");
-                break;
-            case 2:
-                System.out.println("2 = two");
-                break;
-            case 3:
-                System.out.println("3 = three");
-                break;
-            case 4:
-                System.out.println("4 = four");
-                break;
-            case 5:
-                System.out.println("5 = Five");
-                break;
-            case 6:
-                System.out.println("6 = Six");
-                break;
-            case 7:
-                System.out.println("7 = Seven");
-                break;
-            case 8:
-                System.out.println("8 = Eight");
-                break;
-            case 9:
-                System.out.println("9 = Nine");
-                break;
-            case 10:
-                System.out.println("10 = Ten");
-                break;
-
+            }
         }
     }
 }
+
