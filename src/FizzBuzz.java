@@ -7,9 +7,6 @@ public class FizzBuzz {
         int userInput = new Scanner(System.in).nextInt();
 
         for (int i = 1; i <= userInput; i++) {
-//            if (i % 15 == 0){
-//                System.out.println("FIZZBUZZ");
-//            }
             String result = "";
             if (i % 3 == 0) {
                 result += "FIZZ";
