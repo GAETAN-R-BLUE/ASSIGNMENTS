@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f5e147-8761-47f9-861d-a7bdda49f87e" name="Changes" comment="changes" />
+    <list default="true" id="b0f5e147-8761-47f9-861d-a7bdda49f87e" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/SmallestNumInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sumOfNaturalNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vowelOrConsonant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsonantsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsonantsCount.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +97,7 @@
     &quot;Application.SimpleCalc.executor&quot;: &quot;Run&quot;,
     &quot;Application.SimpleCalendarChecker.executor&quot;: &quot;Run&quot;,
     &quot;Application.SimpleTimer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestNumInArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.SmallestNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.SortingNumbers.executor&quot;: &quot;Run&quot;,
     &quot;Application.StackExample2.executor&quot;: &quot;Run&quot;,
@@ -109,6 +117,9 @@
     &quot;Application.day2.executor&quot;: &quot;Run&quot;,
     &quot;Application.day5.executor&quot;: &quot;Run&quot;,
     &quot;Application.palindromeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfNaturalNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vowelOrConsonant.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -121,37 +132,37 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WordOccurrence2">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+  <component name="RunManager" selected="Application.ConsonantsCount">
+    <configuration name="ConsonantsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsonantsCount" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
+    <configuration name="SmallestNumInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SmallestNumInArray" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerCalcWithoutUsingMathMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PowerCalcWithoutUsingMathMethod" />
+    <configuration name="sumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumOfArray" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordCount" />
+    <configuration name="sumOfNaturalNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumOfNaturalNum" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordOccurrence2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordOccurrence2" />
+    <configuration name="vowelOrConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vowelOrConsonant" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordOccurrence2" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.PowerCalcWithoutUsingMathMethod" />
+        <item itemvalue="Application.ConsonantsCount" />
+        <item itemvalue="Application.sumOfNaturalNum" />
+        <item itemvalue="Application.sumOfArray" />
+        <item itemvalue="Application.vowelOrConsonant" />
+        <item itemvalue="Application.SmallestNumInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743822141392</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="changes">
+      <option name="closed" value="true" />
+      <created>1744066326972</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1744066326972</updated>
+    </task>
+    <task id="LOCAL-00042" summary="changes">
+      <option name="closed" value="true" />
+      <created>1744066527772</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1744066527772</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -532,9 +559,14 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/src/SmallestNumInArray.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sumOfNaturalNum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/out/production/ASSIGNMENTS/add.class</url>
