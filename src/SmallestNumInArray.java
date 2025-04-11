@@ -14,6 +14,5 @@ public class SmallestNumInArray {
             }
         }
         System.out.println("The smallest in your array is :" + smallest);
-
     }
 }
