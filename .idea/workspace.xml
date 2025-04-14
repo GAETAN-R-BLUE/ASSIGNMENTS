@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f5e147-8761-47f9-861d-a7bdda49f87e" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/SmallestNumInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sumOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sumOfNaturalNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vowelOrConsonant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayElementDoubler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalcUsingFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MAxInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsonantsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsonantsCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,98 +55,108 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Anagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assignment6_12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AverageArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterCounts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsonantsCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FahrenheitToCelsius.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzzEnhanced.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GreatestCommonDivisor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab6_12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_6_13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Largest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MostFrequentCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyCar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberToWordConverter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OccurrenceWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pangram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PerfectSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerCalcWithoutUsingMathMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNum2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueIntro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseSentence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleCalendarChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleTimer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestNumInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortingNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stack_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfDigit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfEvenNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimeConverter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueCharacterChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnitConverter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordOccurrence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordOccurrence2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.add.executor&quot;: &quot;Run&quot;,
-    &quot;Application.assignment1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.assignment2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.palindromeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sumOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sumOfNaturalNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vowelOrConsonant.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gaeta/JAVAPROGRAMING/ASSIGNMENTS&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gaeta/JAVAPROGRAMING/ASSIGNMENTS/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Anagrams.executor": "Run",
+    "Application.ArrayElementDoubler.executor": "Run",
+    "Application.ArrayLargest.executor": "Run",
+    "Application.Assignment6_12.executor": "Run",
+    "Application.AverageArray.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.CalcUsingFunction.executor": "Run",
+    "Application.CharacterCounts.executor": "Run",
+    "Application.ConsonantsCount.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FahrenheitToCelsius.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FizzBuzzEnhanced.executor": "Debug",
+    "Application.GreatestCommonDivisor.executor": "Run",
+    "Application.Lab6_12.executor": "Run",
+    "Application.Lab_6_13.executor": "Run",
+    "Application.Largest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Method.executor": "Run",
+    "Application.MostFrequentCharacter.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.MyCar.executor": "Run",
+    "Application.NumberToWordConverter.executor": "Run",
+    "Application.OccurrenceWord.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Pangram.executor": "Run",
+    "Application.PerfectSquare.executor": "Run",
+    "Application.PowerCalcWithoutUsingMathMethod.executor": "Run",
+    "Application.PowerCalculator.executor": "Run",
+    "Application.PrimeNum2.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
+    "Application.QueueIntro.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.ReverseSentence.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
+    "Application.SimpleCalc.executor": "Run",
+    "Application.SimpleCalendarChecker.executor": "Run",
+    "Application.SimpleTimer.executor": "Run",
+    "Application.SmallestNumInArray.executor": "Run",
+    "Application.SmallestNumber.executor": "Run",
+    "Application.SortingNumbers.executor": "Run",
+    "Application.StackExample2.executor": "Run",
+    "Application.Stack_1.executor": "Run",
+    "Application.SumOfDigit.executor": "Run",
+    "Application.SumOfEvenNumber.executor": "Run",
+    "Application.TimeConverter.executor": "Run",
+    "Application.UniqueCharacterChecker.executor": "Run",
+    "Application.UnitConverter.executor": "Run",
+    "Application.WordCount.executor": "Run",
+    "Application.WordOccurrence.executor": "Run",
+    "Application.WordOccurrence2.executor": "Run",
+    "Application.add.executor": "Run",
+    "Application.assignment1.executor": "Run",
+    "Application.assignment2.executor": "Run",
+    "Application.day1.executor": "Run",
+    "Application.day2.executor": "Run",
+    "Application.day5.executor": "Run",
+    "Application.palindromeNumber.executor": "Run",
+    "Application.sumOfArray.executor": "Run",
+    "Application.sumOfNaturalNum.executor": "Run",
+    "Application.vowelOrConsonant.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gaeta/JAVAPROGRAMING/ASSIGNMENTS",
+    "onboarding.tips.debug.path": "C:/Users/gaeta/JAVAPROGRAMING/ASSIGNMENTS/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
-  <component name="RunManager" selected="Application.ConsonantsCount">
+}]]></component>
+  <component name="RunManager" selected="Application.CalcUsingFunction">
+    <configuration name="ArrayElementDoubler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayElementDoubler" />
+      <module name="ASSIGNMENTS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment6_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment6_12" />
+      <module name="ASSIGNMENTS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcUsingFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalcUsingFunction" />
+      <module name="ASSIGNMENTS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsonantsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsonantsCount" />
-      <module name="ASSIGNMENTS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallestNumInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SmallestNumInArray" />
-      <module name="ASSIGNMENTS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumOfArray" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,20 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vowelOrConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vowelOrConsonant" />
-      <module name="ASSIGNMENTS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalcUsingFunction" />
+        <item itemvalue="Application.Assignment6_12" />
+        <item itemvalue="Application.ArrayElementDoubler" />
         <item itemvalue="Application.ConsonantsCount" />
         <item itemvalue="Application.sumOfNaturalNum" />
-        <item itemvalue="Application.sumOfArray" />
-        <item itemvalue="Application.vowelOrConsonant" />
-        <item itemvalue="Application.SmallestNumInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +524,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744066527772</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="changes">
+      <option name="closed" value="true" />
+      <created>1744407292484</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1744407292485</updated>
+    </task>
+    <task id="LOCAL-00044" summary="changes">
+      <option name="closed" value="true" />
+      <created>1744407551500</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1744407551500</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
