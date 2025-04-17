@@ -1,12 +1,8 @@
 import java.util.Scanner;
 
-// Main class
 public class MAxInArray {
-
-    // Main method - program execution starts here
     public static void main(String[] args) {
 
-        // Prompt user to enter a list of numbers separated by spaces
         System.out.println("Enter a list of number separated with space");
 
         // Read the whole line of input, split it into a String array using space as delimiter
@@ -21,7 +17,9 @@ public class MAxInArray {
 
         int max = Integer.parseInt(userInput[0]); // Set max to the first number entered
 
-        // Loop through the string array to:
+        // Loop through the string array to:    public static void main(String[] args) {
+        //
+        //        // Prompt user to enter a list of numbers separated by spaces
         // 1. Convert each element to integer
         // 2. Store it in the numbers array
         // 3. Compare each number to find the maximum
@@ -38,3 +36,4 @@ public class MAxInArray {
         System.out.println("The max number is " + max);
     }
 }
+
