@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f5e147-8761-47f9-861d-a7bdda49f87e" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AverageOddNumb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheckReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultipleOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RepeatingCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MAxInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAxInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENTS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENTS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOfDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfDigit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -60,21 +69,25 @@
     "Application.ArrayLargest.executor": "Run",
     "Application.Assignment6_12.executor": "Run",
     "Application.AverageArray.executor": "Run",
+    "Application.AverageOddNumb.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.CalcUsingFunction.executor": "Run",
     "Application.CharacterCounts.executor": "Run",
+    "Application.CheckReverseWords.executor": "Run",
     "Application.ConsonantsCount.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.FizzBuzzEnhanced.executor": "Debug",
     "Application.GreatestCommonDivisor.executor": "Run",
+    "Application.GuessingGame.executor": "Run",
     "Application.Lab6_12.executor": "Run",
     "Application.Lab_6_13.executor": "Run",
     "Application.Largest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Method.executor": "Run",
     "Application.MostFrequentCharacter.executor": "Run",
+    "Application.MultipleOfNumber.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.MyCar.executor": "Run",
     "Application.NumberToWordConverter.executor": "Run",
@@ -120,6 +133,7 @@
     "Application.vowelOrConsonant.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/gaeta/JAVAPROGRAMING/ASSIGNMENTS",
@@ -131,37 +145,37 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CalcUsingFunction">
-    <configuration name="ArrayElementDoubler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayElementDoubler" />
+  <component name="RunManager" selected="Application.WordOccurrence2">
+    <configuration name="AverageOddNumb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AverageOddNumb" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment6_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment6_12" />
+    <configuration name="CheckReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckReverseWords" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcUsingFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalcUsingFunction" />
+    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessingGame" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsonantsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsonantsCount" />
+    <configuration name="MultipleOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultipleOfNumber" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sumOfNaturalNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumOfNaturalNum" />
+    <configuration name="WordOccurrence2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordOccurrence2" />
       <module name="ASSIGNMENTS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalcUsingFunction" />
-        <item itemvalue="Application.Assignment6_12" />
-        <item itemvalue="Application.ArrayElementDoubler" />
-        <item itemvalue="Application.ConsonantsCount" />
-        <item itemvalue="Application.sumOfNaturalNum" />
+        <item itemvalue="Application.WordOccurrence2" />
+        <item itemvalue="Application.GuessingGame" />
+        <item itemvalue="Application.AverageOddNumb" />
+        <item itemvalue="Application.MultipleOfNumber" />
+        <item itemvalue="Application.CheckReverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744668847382</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="changes">
+      <option name="closed" value="true" />
+      <created>1744850516572</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1744850516572</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -590,6 +612,11 @@
           <url>file://$PROJECT_DIR$/src/sumOfNaturalNum.java</url>
           <line>8</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MultipleOfNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/out/production/ASSIGNMENTS/add.class</url>
