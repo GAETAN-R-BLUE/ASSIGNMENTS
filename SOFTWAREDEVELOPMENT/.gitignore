@@ -47,4 +47,10 @@ out/
 # VSCode & misc
 .vscode/
 node_modules/
+/IBM_REPO/
+/JAVAPROGRAMING/Assignment 2.0/
+/JAVAPROGRAMING/Assignment2.0/
+/JAVAPROGRAMING/JavaCollection/
+/JAVAPROGRAMING/JavaFileHandeling/
+/JAVAPROGRAMING/OOP/
 
