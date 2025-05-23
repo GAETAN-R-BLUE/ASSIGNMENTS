@@ -22,3 +22,29 @@ Templates/
 
 # Logs
 *.log
+# Ignore system/user folders
+/3D Objects/
+/AppData/
+/Contacts/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/NTUSER.DAT
+/OneDrive*/
+/Saved Games/
+/Searches/
+/Tracing/
+/bluej/
+/*.LOG
+
+# IntelliJ & build stuff
+.idea/
+*.iml
+out/
+*.class
+
+# VSCode & misc
+.vscode/
+node_modules/
+
